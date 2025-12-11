@@ -3,18 +3,18 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='flex flex-row gap-4 justify-between w-screen bg-amber-400'>
-        <NavLink
+    <div className='place-content-evenly flex flex-row gap-4 px-8 py-4 mb-3 w-screen bg-amber-400'>
+      <NavLink
         to="/"
-        >
-            Home
-        </NavLink>
+      >
+        Home
+      </NavLink>
 
-        <NavLink
+      <NavLink
         to="/pastes"
-        >
-            Pastes
-        </NavLink>
+      >
+        Pastes
+      </NavLink>
     </div>
   )
 }
